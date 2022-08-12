@@ -17,5 +17,7 @@ Then we deploy the on STM32 microcontroller(MC).
 Then by using functions we run inference using that trained model on the STM32 MC.
 ![image](https://user-images.githubusercontent.com/101463904/184451368-f0c676d0-1019-494b-8246-38243d0ab6c7.png)
 ![image](https://user-images.githubusercontent.com/101463904/184451968-0189a96a-4da4-4da5-beee-3abb4acad278.png)
+![image](https://user-images.githubusercontent.com/101463904/184452475-619767ad-23b0-41b0-bc7d-c298486835ef.png)
+
 
 
