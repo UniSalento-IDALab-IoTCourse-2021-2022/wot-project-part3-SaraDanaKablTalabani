@@ -14,4 +14,6 @@ Note: This is a labeled dataset, so we could consider this as a supervised learn
 An autoencoder is trained to minimize reconstruction error. You will train an autoencoder on the normal rhythms only, then use it to reconstruct all the data. Our hypothesis is that the abnormal rhythms will have higher reconstruction error. You will then classify a rhythm as an anomaly if the reconstruction error surpasses a fixed threshold.
 
 Then we deploy the on STM32 microcontroller(MC).
-Thee by using functions we run inference using that trained model on the STM32 MC.
+Then by using functions we run inference using that trained model on the STM32 MC.
+![image](https://user-images.githubusercontent.com/101463904/184451368-f0c676d0-1019-494b-8246-38243d0ab6c7.png)
+
