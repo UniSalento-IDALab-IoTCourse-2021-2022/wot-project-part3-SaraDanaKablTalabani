@@ -19,6 +19,8 @@ Then by using functions we run inference using that trained model on the STM32 M
 ![image](https://user-images.githubusercontent.com/101463904/184451968-0189a96a-4da4-4da5-beee-3abb4acad278.png)
 ![image](https://user-images.githubusercontent.com/101463904/184452475-619767ad-23b0-41b0-bc7d-c298486835ef.png)
 ![image](https://user-images.githubusercontent.com/101463904/184452555-0da91982-4a07-4cbf-868d-657bfef5e45c.png)
+![image](https://user-images.githubusercontent.com/101463904/184453216-5928d356-14ca-45dc-8d3a-efb1faffdd48.png)
+
 
 
 
