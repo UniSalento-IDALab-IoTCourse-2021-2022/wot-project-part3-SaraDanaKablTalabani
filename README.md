@@ -30,7 +30,11 @@ Detect anomalies:
 
 Detect anomalies by computing whether the reconstruction loss is greater than a fixed threshold. We computed the mean average error for normal examples from the training set, then classify future examples as anomalous if the reconstruction error is higher than one standard deviation from the training set.
 
-Classify an ECG as an anomaly if the reconstruction error is greater than the threshold. 
+Classify an ECG as an anomaly if the reconstruction error is greater than the threshold.
+
+![image](https://user-images.githubusercontent.com/101463904/186529502-81b679a3-c5a8-4c67-88dc-ddf8a073b0f6.png)
+![image](https://user-images.githubusercontent.com/101463904/186530901-f4f4f3ad-1ba5-436b-b373-32fcc1880c07.png)
+
 
 
 1 npm install -g edge-impulse-cli --force
