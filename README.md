@@ -4,6 +4,16 @@ wot-project-part3-SaraDanaKablTalabani created by GitHub Classroom
 Deploy the ML algorithm on the STM32 device: deploying the algorithm also includes developing the supporting
 functions to receive data over BLE, perform inference, create notifications in case of anomalies and then
 transmit them. The anomaly score should also be transmitted to a database (via a protocol of ).
+
+The X cube AI has been realesed to help us to deploy small ML model which has been trained privoiusly using Keras, Tensorflow and onex on the STM32 MCU. MCU are limited in resoucres and therefor the X Cube AI used to help us to convert the model and fitting it on the our chosen system. From the X cube AI we can use function to run inference using our model.
+Inference is the process of running new unseen data through our machine learning model.
+We will use the ML model 
+![image](https://user-images.githubusercontent.com/101463904/186467538-38f21c8e-2c1d-4286-a187-511eaffae21a.png)
+The link to the dataset which we used:
+http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
+
+
+
 1 npm install -g edge-impulse-cli --force
 We trained the model.
 
@@ -22,6 +32,7 @@ Then by using functions we run inference using that trained model on the STM32 M
 ![image](https://user-images.githubusercontent.com/101463904/184453216-5928d356-14ca-45dc-8d3a-efb1faffdd48.png)
 
 
-
+References:
+http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
 
 
