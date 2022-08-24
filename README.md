@@ -9,7 +9,10 @@ The X cube AI has been realesed to help us to deploy small ML model which has be
 Inference is the process of running new unseen data through our machine learning model.
 We will use the ML model 
 ![image](https://user-images.githubusercontent.com/101463904/186467538-38f21c8e-2c1d-4286-a187-511eaffae21a.png)
+
+
 The link to the dataset which we used:
+
 http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
 
 
@@ -33,6 +36,7 @@ Then by using functions we run inference using that trained model on the STM32 M
 
 
 References:
+
 http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
 
 
