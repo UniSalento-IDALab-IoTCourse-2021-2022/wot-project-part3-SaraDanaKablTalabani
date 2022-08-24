@@ -20,7 +20,17 @@ The link to the dataset which we used:
 
 http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
 
+the normal rhythms in the dataset is labled as 1 and the abnormal rhythms as 0. 
 
+Note: the autoencoder is trained utlizing the normal ECGs only, while is tested utlizing the full test set.
+
+We classified an ECG as anomalous if the reconstruction error is greater than one standard deviation from the normal training examples.
+
+Detect anomalies:
+
+Detect anomalies by computing whether the reconstruction loss is greater than a fixed threshold. We computed the mean average error for normal examples from the training set, then classify future examples as anomalous if the reconstruction error is higher than one standard deviation from the training set.
+
+Classify an ECG as an anomaly if the reconstruction error is greater than the threshold. 
 
 
 1 npm install -g edge-impulse-cli --force
