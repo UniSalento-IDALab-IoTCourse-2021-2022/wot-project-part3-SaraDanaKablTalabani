@@ -7,13 +7,19 @@ transmit them. The anomaly score should also be transmitted to a database (via a
 
 The X cube AI has been realesed to help us to deploy small ML model which has been trained privoiusly using Keras, Tensorflow and onex on the STM32 MCU. MCU are limited in resoucres and therefor the X Cube AI used to help us to convert the model and fitting it on the our chosen system. From the X cube AI we can use function to run inference using our model.
 Inference is the process of running new unseen data through our machine learning model.
-We will use the ML model 
+We will use the ML model which is avialable in part 2. We trained an autoencoder to detect anomalies on the ECG5000 dataset. This dataset contains 5,000 Electrocardiograms, each with 140 data points. You will use a simplified version of the dataset, where each example has been labeled either 0 (corresponding to an abnormal rhythm), or 1 (corresponding to a normal rhythm). We want to identify the abnormal rhythms.
+
+Note: This is a labeled dataset, therefore we could consider this as a supervised learning case. One of the aim of this work is to show anomaly detection. In future work we will try to apply this to larger datasets, where you do not have labels . For example, if we had many thousands of normal rhythms, and only a small number of abnormal rhythms.
+
+Autoencoder: it is trained to minimize reconstruction error. We trained an autoencoder on the normal rhythms only, then use it to reconstruct all the data. Our hypothesis is that the abnormal rhythms will have higher reconstruction error. You will then classify a rhythm as an anomaly if the reconstruction error surpasses a fixed threshold. 
+
 ![image](https://user-images.githubusercontent.com/101463904/186467538-38f21c8e-2c1d-4286-a187-511eaffae21a.png)
 
 
 The link to the dataset which we used:
 
 http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
+
 
 
 
