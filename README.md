@@ -61,6 +61,9 @@ The follows are the steps to do that:
 4. We analyed the model which give us some information about its relative complixity such as how much RAM it needs and the number of NCC opertation it requires.
 5. Validsate on target and it works properly.
 6.Validsate on desktop and it works properly.
+7.Generate the code.
+8. 
+
 Note: it is applicable to load more than one model at the same but we need to have the required space for them.
 
 References:
