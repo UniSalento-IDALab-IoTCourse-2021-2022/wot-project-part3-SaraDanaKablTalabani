@@ -53,11 +53,20 @@ Then by using functions we run inference using that trained model on the STM32 M
 ![image](https://user-images.githubusercontent.com/101463904/184452475-619767ad-23b0-41b0-bc7d-c298486835ef.png)
 ![image](https://user-images.githubusercontent.com/101463904/184452555-0da91982-4a07-4cbf-868d-657bfef5e45c.png)
 ![image](https://user-images.githubusercontent.com/101463904/184453216-5928d356-14ca-45dc-8d3a-efb1faffdd48.png)
-Now, our model has been deployed STM32 Dscovery kit. Then we run inference function in our MCU using our model in X cube AI to detect the anomalies in our dataset. Our model is pretrained using colab and we run the inference from there also. We conferted the .h to .tflite file to be be able to imported to the X cube AI. We used STM32 Discovery kit IoT node for STM32L475 MCU.    
+Now, our model has been deployed STM32 Dscovery kit. Then we run inference function in our MCU using our model in X cube AI to detect the anomalies in our dataset. Our model is pretrained using colab and we run the inference from there also. We conferted the .h to .tflite file to be be able to imported to the X cube AI. We used STM32 Discovery kit IoT node for STM32L475 MCU.
+The follows are the steps to do that: 
+1. We istalled the AI pachage on x cube AI.
+2. we navigate to the board selector section and we selected our board.
+3. Name the project. We named the project as De.
+4. We analyed the model which give us some information about its relative complixity such as how much RAM it needs and the number of NCC opertation it requires.
+5. Validsate on target and it works properly.
+6.Validsate on desktop and it works properly.
+Note: it is applicable to load more than one model at the same but we need to have the required space for them.
 
 References:
 
 http://storage.googleapis.com/download.tensorflow.org/data/ecg.csv
+
 https://youtu.be/crJcDqIUbP4
 
 
