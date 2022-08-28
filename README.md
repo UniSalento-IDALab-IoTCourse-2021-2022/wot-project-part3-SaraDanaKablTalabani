@@ -73,9 +73,17 @@ Note: this part of our network model.
 Notes:
 - It is applicable to load more than one model at the same but we need to have the required space for them.
 - in App open network.c this houses the function that we need to use to intiliaze our model and run inference.
-- The network_data.c is our nueral network and it is a big raw byte array that our x cube AI LIBRARY HOw TO INTERPERT it
+- The network_data.c is our nueral network and it is a big raw byte array that our x cube AI LIBRARY know HOw TO INTERPERT it
 
 10. Now we modify the main.c with the following:
+
+First we insert the required libraries such as the c standard inout ouput library and others:
+
+![image](https://user-images.githubusercontent.com/101463904/187090367-79e46f04-2876-46ff-b9bc-586f4406e893.png)
+
+Next 
+
+
 
        
 
