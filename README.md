@@ -60,14 +60,26 @@ The follows are the steps to do that:
 3. Name the project. We named the project as De.
 4. We analyed the model which give us some information about its relative complixity such as how much RAM it needs and the number of NCC opertation it requires.
 5. We could show the graph of our network model as the following image:
-![image](https://user-images.githubusercontent.com/101463904/187089188-a8c1eb17-560c-4656-ba95-1f011494987c.png)
-Note: this part of our network model.
-Validsate on target and it works properly.
-6.Validsate on desktop and it works properly.
-7.Generate the code.
-8. 
 
-Note: it is applicable to load more than one model at the same but we need to have the required space for them.
+
+![image](https://user-images.githubusercontent.com/101463904/187089188-a8c1eb17-560c-4656-ba95-1f011494987c.png)
+
+Note: this part of our network model.
+6.Validsate on target and it works properly.
+7.Validsate on desktop and it works properly.
+8. We named our model as network.
+9.Generate the code.
+
+Notes:
+- It is applicable to load more than one model at the same but we need to have the required space for them.
+- in App open network.c this houses the function that we need to use to intiliaze our model and run inference.
+- The network_data.c is our nueral network and it is a big raw byte array that our x cube AI LIBRARY HOw TO INTERPERT it
+
+10. Now we modify the main.c with the following:
+
+       
+
+ 
 
 References:
 
