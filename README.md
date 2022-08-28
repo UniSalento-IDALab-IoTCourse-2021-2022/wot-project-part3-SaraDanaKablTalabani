@@ -85,7 +85,6 @@ Next in main we declare some variables that help us such as buffere that for our
 
 ![image](https://user-images.githubusercontent.com/101463904/187090611-c79de36c-e4ad-4a01-bfc4-1a900ab367eb.png)
 
-![image](https://user-images.githubusercontent.com/101463904/187090699-cd874853-c357-4e9b-9359-e9d821019495.png)
 
 
 
