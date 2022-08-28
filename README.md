@@ -59,7 +59,10 @@ The follows are the steps to do that:
 2. we navigate to the board selector section and we selected our board.
 3. Name the project. We named the project as De.
 4. We analyed the model which give us some information about its relative complixity such as how much RAM it needs and the number of NCC opertation it requires.
-5. Validsate on target and it works properly.
+5. We could show the graph of our network model as the following image:
+![image](https://user-images.githubusercontent.com/101463904/187089188-a8c1eb17-560c-4656-ba95-1f011494987c.png)
+Note: this part of our network model.
+Validsate on target and it works properly.
 6.Validsate on desktop and it works properly.
 7.Generate the code.
 8. 
