@@ -81,7 +81,12 @@ First we insert the required libraries such as the c standard inout ouput librar
 
 ![image](https://user-images.githubusercontent.com/101463904/187090367-79e46f04-2876-46ff-b9bc-586f4406e893.png)
 
-Next 
+Next in main we declare some variables that help us such as buffere that for our serial output string, error code and a time stamp:
+
+![image](https://user-images.githubusercontent.com/101463904/187090611-c79de36c-e4ad-4a01-bfc4-1a900ab367eb.png)
+
+
+
 
 
 
